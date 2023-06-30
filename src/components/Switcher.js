@@ -28,12 +28,13 @@ const Switcher = () => {
           <h4>COLOR SWITCHER</h4>
           <ul>
             {colors.map((color) => (
-              <li>
+              <li key={color.id}>
+                {" "}
+                {/* Add the key prop here */}
                 <a
                   href="#"
                   title={color.name}
                   className="color"
-                  key={color.id}
                   onClick={() => setColor(color.name)}
                 >
                   <img

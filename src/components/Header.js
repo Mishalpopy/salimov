@@ -8,6 +8,9 @@ const Header = () => {
           <nav>
             <ul>
               <li>
+                <img src="assets/logo.svg" width={90} />
+              </li>
+              <li>
                 <span className="active" id="home-link">
                   Home
                 </span>
@@ -21,9 +24,6 @@ const Header = () => {
               <li>
                 <span id="contact-link">Contact</span>
               </li>
-              <li>
-                <span id="blog-link">Blog</span>
-              </li>
             </ul>
           </nav>
         </div>
@@ -31,7 +31,7 @@ const Header = () => {
         {/* FREELANCE STARTS */}
         <div className="mail">
           <p>
-            Email :<span> contact@steven.net</span>
+            Email :<span> hello@diox.me</span>
           </p>
         </div>
         {/* FREELANCE ENDS */}
@@ -63,11 +63,6 @@ const Header = () => {
             <li>
               <a href="#contact">
                 <span>Contact</span>
-              </a>
-            </li>
-            <li>
-              <a href="#blog">
-                <span>Blog</span>
               </a>
             </li>
           </ul>
