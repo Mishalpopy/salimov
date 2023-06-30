@@ -2,16 +2,16 @@ import Head from "next/head";
 const SalimovHead = () => {
   return (
     <Head>
-      <title>Salimov - Horizontal Personal Portfolio</title>
+      <title>
+        Diox.me | Apps, Webdesign, E-commerce &amp; E-marketing | Diox.me |
+        Dubai UAE
+      </title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       {/* Template Google Fonts */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
+
       {/* Template CSS Files */}
 
       <link rel="stylesheet" href="css/devicon.min.css" />
