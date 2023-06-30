@@ -45,7 +45,24 @@ Version: 1.0
   src: url(../fonts/Helvetica.ttf);
 }
 
+@font-face {
+  font-family: "bold-Helvetica";
+  font-style: bold;
+  font-weight: 700;
+  src: url(../fonts/Helvetica-Bold.ttf);
+}
 
+@font-face {
+  font-family: "BoldOblique-Helvetica";
+
+  src: url(../fonts/Helvetica-BoldOblique.ttf);
+}
+
+@font-face {
+  font-family: "Rounded-Helvetica";
+
+  src: url(../fonts/helvetica-rounded-bold-5871d05ead8de.otf);
+}
 
 html {
   height: 100%;
@@ -53,7 +70,7 @@ html {
 
 body {
   height: 100%;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", "bold-Helvetica", "BoldOblique-Helvetica", "Rounded-Helvetica", sans-serif;
   font-size: 18px;
   background-color: #0b0b0b;
   margin: 0;
@@ -346,7 +363,7 @@ ul {
 .custom-title h3 {
   font-size: 60px;
   line-height: 65px;
-  font-weight: 800;
+  font-weight: 700;
   white-space: nowrap;
   position: relative;
   margin: 0;
@@ -554,7 +571,8 @@ header .mobile-menu {
   position: relative;
   z-index: 1;
   font-size: 130px;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: "Rounded-Helvetica";
   line-height: 130px;
   margin: 0;
 }
