@@ -21,7 +21,7 @@ const About = () => {
           <h2>
             <span>
               <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                Diox
+                11eleven.me
               </span>
             </span>
             <span>
@@ -33,8 +33,8 @@ const About = () => {
           <div className="infos">
             <div className="about-area">
               <p>
-                At Diox.me, we are a passionate design and development agency
-                dedicated to bringing your vision to life. <br />
+                At 11eleven.me, we are a passionate design and development
+                agency dedicated to bringing your vision to life. <br />
                 With expertise in website design, branding, app development, and
                 digital marketing, <br />
                 we offer comprehensive solutions tailored to meet your unique

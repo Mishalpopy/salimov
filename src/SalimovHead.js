@@ -3,8 +3,8 @@ const SalimovHead = () => {
   return (
     <Head>
       <title>
-        Diox.me | Apps, Webdesign, E-commerce &amp; E-marketing | Diox.me |
-        Dubai UAE
+        11eleven.me | Apps, Webdesign, E-commerce &amp; E-marketing |
+        11eleven.me | Dubai UAE
       </title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

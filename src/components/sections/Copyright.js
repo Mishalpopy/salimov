@@ -11,7 +11,7 @@ const Copyright = () => {
         <span>
           Designed By
           <a target="_blank" href="https://diox.me">
-            Diox.me
+            11eleven.me
           </a>
         </span>
         <ul>

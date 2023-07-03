@@ -577,6 +577,12 @@ header .mobile-menu {
   margin: 0;
 }
 
+
+.clients .client-img {
+  width: 150px;
+}
+
+
 .home>div>div h1>span>span:not(.intro),
 .home>div>div h1>span {
   display: block;

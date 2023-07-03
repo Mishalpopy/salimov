@@ -5,7 +5,7 @@ const Clients = () => {
   return (
     <section className="clients">
       <div className="clients-container animated-layer fade-in-right-animation fadeInUp wow">
-        <h3>My Clients</h3>
+        <h3>Our Clients</h3>
         <Swiper
           {...salimovSlider.clients}
           className="swiper swiper-clients fadeInUp wow"
@@ -14,7 +14,8 @@ const Clients = () => {
           <SwiperSlide className="swiper-slide">
             <div>
               <img
-                src="assets/logos/themeforest-dark-background.png"
+                src="assets/client-trust.png"
+                className="client-img"
                 alt="client"
               />
             </div>
